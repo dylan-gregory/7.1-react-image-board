@@ -52,7 +52,7 @@ var ImageList = React.createClass({
               <div className="caption">
                 <h3>{photo.get('title')}</h3>
                 <p>{photo.get('caption')}</p>
-                <p><a href="#" className="btn btn-primary" role="button">Edit</a><a href="#" className="btn btn-primary" role="button">Delete</a></p>
+                <p><a href="#" className="btn btn-primary" role="button">Edit</a><a href="#" className="btn btn-danger" role="button">Delete</a></p>
               </div>
             </div>
           </div>
